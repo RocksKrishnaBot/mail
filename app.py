@@ -17,16 +17,6 @@ from RandomWordGenerator import RandomWord
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid, bad_request_400
 
-
-from database import (
-    get_served_users,
-    add_served_user,
-    remove_served_user,
-    get_served_chats,
-    add_served_chat,
-    remove_served_chat
-)
-
 app = Client(
     "Fake_mail_bot",
     api_hash= os.environ["API_HASH"],
