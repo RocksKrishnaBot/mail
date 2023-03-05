@@ -39,7 +39,6 @@ Send /domains to get list of Available Domains.
 **Developer** : @ImDenuwan | @szteambots 
 """
 
-CHANNEL_ID = int(os.environ['CHANNEL_ID'])
 CHANNEL = os.environ['CHANNEL']
 OWNER = int(os.environ['OWNER'])
 
